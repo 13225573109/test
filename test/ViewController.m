@@ -23,6 +23,7 @@
     [testBtn setTitle:@"测试" forState:UIControlStateNormal];
     [testBtn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:testBtn];
+    NSLog(@"test");
 }
 
 -(void)btnClick
