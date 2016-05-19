@@ -1,0 +1,12 @@
+language: objective-c
+cache: bundler
+before_script:
+- ./scripts/add-key.sh
+script:
+- xctool -project test.xcodeproj -scheme test -sdk iphoneos -configuration Release BJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+after_success:
+- ./scripts/sign-and-upload.sh
+env:
+ global:
+ - APP_NAME="test"
+ - 'DEVELOPER_NAME="iPhone Distribution: Guo Changshui (8ZP2DC9W38)"'
