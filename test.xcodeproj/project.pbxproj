@@ -10,9 +10,7 @@
 		2C38D1431CEC5FBD00097A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38D1421CEC5FBD00097A64 /* main.m */; };
 		2C38D1461CEC5FBD00097A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38D1451CEC5FBD00097A64 /* AppDelegate.m */; };
 		2C38D1491CEC5FBD00097A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38D1481CEC5FBD00097A64 /* ViewController.m */; };
-		2C38D14C1CEC5FBD00097A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C38D14A1CEC5FBD00097A64 /* Main.storyboard */; };
 		2C38D14E1CEC5FBD00097A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C38D14D1CEC5FBD00097A64 /* Assets.xcassets */; };
-		2C38D1511CEC5FBD00097A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C38D14F1CEC5FBD00097A64 /* LaunchScreen.storyboard */; };
 		2C38D15C1CEC5FBD00097A64 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38D15B1CEC5FBD00097A64 /* testTests.m */; };
 		2C38D1671CEC5FBD00097A64 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38D1661CEC5FBD00097A64 /* testUITests.m */; };
 /* End PBXBuildFile section */
@@ -41,9 +39,7 @@
 		2C38D1451CEC5FBD00097A64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C38D1471CEC5FBD00097A64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2C38D1481CEC5FBD00097A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2C38D14B1CEC5FBD00097A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C38D14D1CEC5FBD00097A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C38D1501CEC5FBD00097A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C38D1521CEC5FBD00097A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C38D1571CEC5FBD00097A64 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C38D15B1CEC5FBD00097A64 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
@@ -105,9 +101,7 @@
 				2C38D1451CEC5FBD00097A64 /* AppDelegate.m */,
 				2C38D1471CEC5FBD00097A64 /* ViewController.h */,
 				2C38D1481CEC5FBD00097A64 /* ViewController.m */,
-				2C38D14A1CEC5FBD00097A64 /* Main.storyboard */,
 				2C38D14D1CEC5FBD00097A64 /* Assets.xcassets */,
-				2C38D14F1CEC5FBD00097A64 /* LaunchScreen.storyboard */,
 				2C38D1521CEC5FBD00097A64 /* Info.plist */,
 				2C38D1411CEC5FBD00097A64 /* Supporting Files */,
 			);
@@ -243,9 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C38D1511CEC5FBD00097A64 /* LaunchScreen.storyboard in Resources */,
 				2C38D14E1CEC5FBD00097A64 /* Assets.xcassets in Resources */,
-				2C38D14C1CEC5FBD00097A64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +298,6 @@
 			targetProxy = 2C38D1631CEC5FBD00097A64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2C38D14A1CEC5FBD00097A64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C38D14B1CEC5FBD00097A64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C38D14F1CEC5FBD00097A64 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C38D1501CEC5FBD00097A64 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2C38D1691CEC5FBD00097A64 /* Debug */ = {
