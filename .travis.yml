@@ -1,5 +1,4 @@
 language: objective-c
-cache: bundler
 before_script:
 - ./scripts/add-key.sh
 script:
