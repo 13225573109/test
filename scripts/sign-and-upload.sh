@@ -19,5 +19,5 @@ echo "***************************"
 curl http://www.pgyer.com/apiv1/app/upload \
 -F uKey="f4f125aac99b0777c58c1e9d4e3e6138" \
 -F _api_key="244bb8a3f9cea45b9aaa322339f7910f" \
--F file="$OUTPUTDIR/$APP_NAME.ipa"
+-F file="@$OUTPUTDIR/KuaiYouJia.ipa"
 fi
