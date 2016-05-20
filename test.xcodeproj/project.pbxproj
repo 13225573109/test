@@ -393,7 +393,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "451e551b-3486-4391-8cb9-f564734c50de";
+				PROVISIONING_PROFILE = "1b341575-d4b2-4792-a77d-0222b0889cf8";
 				SDKROOT = iphoneos9.2;
 			};
 			name = Debug;
@@ -409,7 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "451e551b-3486-4391-8cb9-f564734c50de";
+				PROVISIONING_PROFILE = "1b341575-d4b2-4792-a77d-0222b0889cf8";
 				SDKROOT = iphoneos9.2;
 			};
 			name = Release;
@@ -512,7 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "451e551b-3486-4391-8cb9-f564734c50de";
+				PROVISIONING_PROFILE = "1b341575-d4b2-4792-a77d-0222b0889cf8";
 				SDKROOT = iphoneos9.2;
 			};
 			name = "ad hoc Distribution";
